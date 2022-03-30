@@ -9,7 +9,7 @@ const config = {
   title: "DevOps Stage 2",
   tagline: "E-book Guide for Mentor",
   url: "http://0.0.0.0",
-  baseUrl: "process.env.BASE_URL",
+  baseUrl: process.env.BASE_URL,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
