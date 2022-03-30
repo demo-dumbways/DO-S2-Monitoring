@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+        ebook:
+             build: .
+             container_name: do-s2-monitoring
+             image: registry.mejik.xyz/ebook/do-s2-monitoring
+             ports:
+                     - 3042:3000
